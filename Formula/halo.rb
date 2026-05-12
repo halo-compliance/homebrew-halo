@@ -1,26 +1,26 @@
 class Halo < Formula
   desc "Halo compliance platform CLI"
   homepage "https://github.com/halo-compliance/cli"
-  version "0.1.9"
+  version "0.1.10"
   license "UNLICENSED"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.9/halo_darwin_arm64.tar.gz"
-      sha256 "0743e63d8001bb0f9309d399e1589d2bfd68ab334589074c6735e937eb4d4bb3"
+      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.10/halo_darwin_arm64.tar.gz"
+      sha256 "421056f68eb2d04d4a3f890339636c823d1aec1047b74cae3bb78c05adb70b83"
     else
-      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.9/halo_darwin_amd64.tar.gz"
-      sha256 "b183674fc49600cb4ee297903fe54b3717bb178c7ce69efde98dad636f0b30d3"
+      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.10/halo_darwin_amd64.tar.gz"
+      sha256 "8b78202a8612ce10c8067fbc564e99c939f19662f65d1e4da1f579db03864e70"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.9/halo_linux_arm64.tar.gz"
-      sha256 "eb3e1d0917b365b858b7ba6b069dd4945e46d531cd92f93bd028b190e2cf27a1"
+      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.10/halo_linux_arm64.tar.gz"
+      sha256 "94202ff49f62d0f10f943c875e43748a041fcb6b1df8684255e34f11fda45614"
     else
-      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.9/halo_linux_amd64.tar.gz"
-      sha256 "04cdab98835c2287b518953a8c233491fe2fbe29045500281854674871a5abbd"
+      url "https://halo-compliance-cli-releases.s3.us-east-1.amazonaws.com/0.1.10/halo_linux_amd64.tar.gz"
+      sha256 "72fa83aca518091f6955ac657747ebc5573937b30a951cb9c66bca50e3ca34d7"
     end
   end
 
